@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="flex min-h-screen px-4 justify-center items-center">
+    <section id="home" className="flex min-h-screen px-4 justify-center items-center">
       {/* Kiri: Konten Teks */}
       <div className="flex flex-col items-start flex-1 max-w-xl">
         <h1 className="text-4xl font-bold mb-4">
