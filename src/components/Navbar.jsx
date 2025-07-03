@@ -25,6 +25,13 @@ function Navbar() {
             About
           </a>
           <a
+            href="#skills"
+            onClick={() => scrollToSection("skills")}
+            className="hover:text-[#FFCC00] transition duration-300 ease-in-out"
+          >
+            Skill
+          </a>
+          <a
             href="#projects"
             onClick={() => scrollToSection("projects")}
             className="hover:text-[#FFCC00] transition duration-300 ease-in-out"

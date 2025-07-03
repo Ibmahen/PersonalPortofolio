@@ -4,7 +4,7 @@ export default function ProjectCard({ title, desc, link, image }) {
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="block border-0 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-gray-900 text-white hover:border-[#FFCC00] hover:border-2 hover:bg-gray-800 ease-in-out"
+      className="block border-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 bg-gray-900 hover:border-[#FFCC00] hover:border-2 hover:bg-gray-800 ease-in-out"
     >
       <img
         src={image}
