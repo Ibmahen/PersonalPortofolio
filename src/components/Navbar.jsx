@@ -7,7 +7,7 @@ function Navbar() {
     <div className="bg-white/10 backdrop-blur-md sticky top-0 z-10 shadow-md">
       <div className="flex justify-between text-lg font-medium text-white items-center px-10 py-5">
         <div>
-          <p className="text-xl font-bold ml-5">Ibmhndr</p>
+          <button className="text-xl font-bold ml-5">Ibmhndr</button>
         </div>
         <div className="flex space-x-12 mr-15">
           <a

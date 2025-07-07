@@ -13,7 +13,7 @@ const skillsData = {
 
 export default function SkillPage() {
   return (
-    <section id="skills" className="min-h-screen flex flex-col md:flex-row px-6 py-16 bg-gradient-to-br from-gray-900 to-black text-white">
+    <section id="skills" className="flex flex-col md:flex-row px-6 py-16 text-white">
       <div className="container px-4 mx-10">
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-10 my-15">My Skills</h2>
         
