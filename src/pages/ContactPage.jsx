@@ -20,7 +20,7 @@ export default function Contact() {
     >
       <div className="container mx-auto px-4 max-w-3xl">
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-55">
-          Contact Info
+          Contact
         </h2>
 
         <div className="space-y-8 mb-12">

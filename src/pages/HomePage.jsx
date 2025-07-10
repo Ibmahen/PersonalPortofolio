@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className="flex text-sm justify-center text-center items-center max-w-4xl mx-auto px-4">
           <p>
-            I am a frontend web developer. I can make website more & more
+            I am a web developer. I can make website more & more
             interactive.
           </p>
         </div>

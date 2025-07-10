@@ -4,7 +4,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white/10 backdrop-blur-md sticky top-0 z-20 shadow-md"> {/* Mengubah z-index menjadi z-20 */}
+    <div className="bg-white/10 backdrop-blur-md sticky top-0 z-20 shadow-md">
       <div className="flex justify-between md:text-lg font-medium text-white items-center px-5 md:px-10 py-5">
         <div>
           <button className="text-xl font-bold">Ibmhndr</button>
@@ -37,6 +37,13 @@ function Navbar() {
             className="hover:text-[#FFCC00] transition duration-300 ease-in-out"
           >
             Projects
+          </a>
+          <a
+            href="#certificates" // NEW LINK
+            onClick={() => scrollToSection("certificates")}
+            className="hover:text-[#FFCC00] transition duration-300 ease-in-out"
+          >
+            Certificates
           </a>
           <a
             href="#contact"
