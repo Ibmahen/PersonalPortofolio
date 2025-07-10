@@ -1,23 +1,26 @@
 import ProjectCard from "../components/ProjectCard";
+import disney from "../assets/projects/disney.png";
+import mpl from "../assets/projects/mpl.png";
+import portofolio from "../assets/projects/porto.png";
 
 const projects = [
   {
-    title: "Todo App",
+    title: "Disney Clone",
     desc: "Simple todo list with React and local storage.",
-    link: "#", 
-    image: "https://placehold.co/400x200/333333/FFFFFF?text=Todo+App" 
+    link: "https://disney-clonee.vercel.app/", 
+    image: disney
   },
   {
     title: "Personal Portfolio",
     desc: "This website! Built with React and Tailwind CSS.",
     link: "#", 
-    image: "https://placehold.co/400x200/333333/FFFFFF?text=Portfolio" 
+    image: portofolio 
   },
   {
-    title: "E-commerce Frontend",
+    title: "MPL Indonesia Season 13",
     desc: "A responsive e-commerce product listing page.",
-    link: "#", 
-    image: "https://placehold.co/400x200/333333/FFFFFF?text=E-commerce" 
+    link: "https://ibmahen.github.io/Website-MPL", 
+    image: mpl
   },
   {
     title: "Weather Dashboard",

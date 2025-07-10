@@ -5,11 +5,11 @@ function Navbar() {
 
   return (
     <div className="bg-white/10 backdrop-blur-md sticky top-0 z-10 shadow-md">
-      <div className="flex justify-between text-lg font-medium text-white items-center px-10 py-5">
+      <div className="flex justify-between md:text-lg font-medium text-white items-center px-5 md:px-10 py-5">
         <div>
-          <button className="text-xl font-bold ml-5">Ibmhndr</button>
+          <button className="text-xl font-bold">Ibmhndr</button>
         </div>
-        <div className="flex space-x-12 mr-15">
+        <div className="flex gap-5 md:gap-x-10">
           <a
             href="#home"
             onClick={() => scrollToSection("home")}
