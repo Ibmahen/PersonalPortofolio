@@ -1,5 +1,7 @@
-// import ibma from "../assets/ibma.png";
-import bg from "../assets/hero-bg-2.jpg"; 
+import bg from "../assets/hero-bg-2.jpg";
+import github from "../assets/github.png";
+import email from "../assets/email.png";
+import linkedin from "../assets/linkedin.png";
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="space-y-5">
@@ -20,35 +22,46 @@ export default function Home() {
             <span className="text-[#FFCC00]"> Ibmahendra Ferdiansah</span>
           </h1>
         </div>
-        <div className="flex text-sm justify-center text-center items-center md:mx-96">
+        <div className="flex text-sm justify-center text-center items-center max-w-4xl mx-auto px-4">
           <p>
-            I am a frontend web developer. I can provide clean code and pixel
-            perfect design. I also make website more & more interactive with web
-            animations.
+            I am a frontend web developer. I can make website more & more
+            interactive.
           </p>
         </div>
         <div className="flex justify-center items-center gap-4 mb-8">
           <a
-            href="https://github.com/username"
+            href="https://github.com/Ibmahen"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#FFCC00] hover:underline"
+            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
           >
-            GitHub
+            <img
+              src={github}
+              alt="GitHub"
+              className="w-9 h-9 object-contain p-2"
+            />
           </a>
           <a
-            href="https://linkedin.com/in/username"
+            href="https://www.linkedin.com/in/ibmahendraferdiansah"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#FFCC00] hover:underline"
+            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
           >
-            LinkedIn
+            <img
+              src={linkedin}
+              alt="Linkedin"
+              className="w-9 h-9 object-contain p-2"
+            />
           </a>
           <a
-            href="mailto:your@email.com"
-            className="text-[#FFCC00] hover:underline"
+            href="mailto:ibmahendraf04@gmail.com"
+            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
           >
-            Email
+            <img
+              src={email}
+              alt="Email"
+              className="w-9 h-9 object-contain p-2"
+            />
           </a>
         </div>
         <div className="flex items-center justify-center">

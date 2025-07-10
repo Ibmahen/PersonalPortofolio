@@ -1,7 +1,9 @@
+/*
+- The max-width: 1280px; will be removed to ensure the website stretches to full screen width.
+- The margin: 0 auto; will be removed to align the content with the new full screen width.
+- The padding: 2rem; will be removed for consistency with the full-width layout.
+*/
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
