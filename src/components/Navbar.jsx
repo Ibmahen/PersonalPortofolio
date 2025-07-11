@@ -1,8 +1,12 @@
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // New state for mobile menu
+
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    setIsMenuOpen(false); // Close menu after clicking a link
   };
 
   return (
@@ -17,7 +21,19 @@ function Navbar() {
             />
           </button>
         </div>
-        <div className="flex gap-5 md:gap-x-10">
+
+        {/* Hamburger Icon for Mobile */}
+        <div className="md:hidden">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white focus:outline-none">
+            {/* Replace with an actual hamburger icon */}
+            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+
+        {/* Desktop Navigation Links */}
+        <div className="hidden md:flex gap-5 md:gap-x-10">
           <a
             href="#home"
             onClick={(e) => {
@@ -80,6 +96,18 @@ function Navbar() {
           </a>
         </div>
       </div>
+
+      {/* Mobile Navigation Links (conditionally rendered) */}
+      {isMenuOpen && (
+        <div className="md:hidden flex flex-col items-center bg-white/10 backdrop-blur-md pb-5">
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("home"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">Home</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("about"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">About</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("skills"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">Skill</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("projects"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">Projects</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("certificates"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">Certificates</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }} className="py-2 hover:text-[#FFCC00] transition duration-300 ease-in-out">Contact</a>
+        </div>
+      )}
     </div>
   );
 }
