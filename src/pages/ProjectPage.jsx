@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Personal Portfolio",
     desc: "Website Portofolio Pribadi dengan React dan Tailwind CSS",
-    link: "#", 
+    link: "https://ibmhndr-personal-portofolio.vercel.app/", 
     image: portofolio 
   },
   {

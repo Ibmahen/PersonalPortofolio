@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
 
           {/* Phone Section: Changed mb-60 and removed mr-13, added responsive flex, adjusted gap/margins */}
-          <div className="flex flex-col sm:flex-row items-center justify-center mb-16 sm:mb-20 gap-4 sm:gap-6 text-center sm:text-left mr-18 sm:mr-18">
+          <div className="flex flex-col sm:flex-row items-center justify-center mb-16 sm:mb-20 gap-4 sm:gap-6 text-center sm:text-left sm:mr-18">
             <div className="w-20 h-20 rounded-full bg-gray-700 flex items-center justify-center flex-shrink-0">
               <img
                 src={phoneIcon}
