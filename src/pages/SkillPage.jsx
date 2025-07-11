@@ -60,7 +60,7 @@ export default function SkillPage() {
       id="skills"
       className="flex flex-col px-6 py-16 text-white"
     >
-      <div className="container px-4"> {/* Removed mx-10 */}
+      <div className="container px-4"> 
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-10 my-15">
           Skills
         </h2>

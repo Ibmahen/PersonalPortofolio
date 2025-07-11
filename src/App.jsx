@@ -6,7 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import Footer from "./pages/Footer";
 import SkillPage from "./pages/SkillPage"
 import ContactPage from "./pages/ContactPage";
-import CertificatePage from "./pages/CertificatePage"; // NEW IMPORT
+import CertificatePage from "./pages/CertificatePage"; 
 
 function App() {
   return (

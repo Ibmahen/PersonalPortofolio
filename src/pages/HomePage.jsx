@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center">
           <a
-            href="/files/CV-IbmahendraFerdiansah.pdf" 
+            href="files/CV_Ibmahendra_Ferdiansah.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#FFCC00] text-black font-semibold px-6 py-3 rounded-md hover:bg-yellow-400 transition duration-300"

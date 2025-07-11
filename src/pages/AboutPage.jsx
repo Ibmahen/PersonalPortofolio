@@ -1,4 +1,4 @@
-import ibma from "../assets/ibma.png"
+import ibma from "../assets/ibma.png";
 
 export default function About() {
   return (
@@ -15,15 +15,17 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
-          {/* Bagian Gambar - Sisi Kiri */}
-          <div className="w-full md:w-1/2 flex justify-center"> {/* Mengurangi proporsi agar tidak terlalu besar */}
-              <img src={ibma} alt="Ibmahendra Ferdiansah" className="w-full h-auto max-w-md object-contain rounded-4xl" />
+          <div className="w-full md:w-1/2 flex justify-center">
+            {" "}
+            <img
+              src={ibma}
+              alt="Ibmahendra Ferdiansah"
+              className="w-full h-auto max-w-md object-contain rounded-4xl"
+            />
           </div>
 
-          {/* Bagian Konten Teks - Sisi Kanan */}
-          <div className="w-full md:w-1/2 text-center md:text-left space-y-6"> {/* Menambah sedikit spacing */}
-
-            {/* Konten paragraf yang Anda sediakan - Ukuran font lebih besar */}
+          <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
+            {" "}
             <p className="text-lg md:text-xl">
               Hello! I am Ibmahendra Ferdiansah, a Computer Science student at
               Indonesian Digital Technology University. I have a strong passion
@@ -37,16 +39,14 @@ export default function About() {
               databases using MySQL and PostgreSQL.
             </p>
             <p className="text-lg md:text-xl">
-              My journey in the world of technology began with curiosity and has
-              grown into a dedicated pursuit of excellence in web development. I
-              am committed to continuous learning and staying up-to-date with
-              the latest technologies and industry trends.
+              With a background rooted in curiosity, I continuously sharpen my
+              skills in web development. I believe that learning never stops,
+              and I am always open to new technologies and innovations.
             </p>
             <p className="text-lg md:text-xl">
-              My goal is to build seamless and innovative digital solutions that
-              can exceed expectations.
+              My goal is to to build digital products that are functional,
+              modern, and provide real value to every user.
             </p>
-
           </div>
         </div>
       </div>
