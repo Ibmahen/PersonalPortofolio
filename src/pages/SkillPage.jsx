@@ -62,7 +62,7 @@ export default function SkillPage() {
     >
       <div className="container px-4"> {/* Removed mx-10 */}
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-10 my-15">
-          My Skills
+          Skills
         </h2>
 
         {/* Programming */}

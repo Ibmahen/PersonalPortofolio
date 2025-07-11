@@ -24,8 +24,7 @@ export default function Home() {
         </div>
         <div className="flex text-sm justify-center text-center items-center max-w-4xl mx-auto px-4">
           <p>
-            I am a web developer. I can make website more & more
-            interactive.
+            I am a web developer. I can make website more & more interactive.
           </p>
         </div>
         <div className="flex justify-center items-center gap-4 mb-8">
@@ -65,9 +64,14 @@ export default function Home() {
           </a>
         </div>
         <div className="flex items-center justify-center">
-          <button className="bg-[#FFCC00] text-black font-semibold px-6 py-3 rounded-md hover:bg-yellow-400 transition duration-300">
+          <a
+            href="/files/CV-IbmahendraFerdiansah.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#FFCC00] text-black font-semibold px-6 py-3 rounded-md hover:bg-yellow-400 transition duration-300"
+          >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
     </section>
