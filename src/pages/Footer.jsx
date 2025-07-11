@@ -10,15 +10,15 @@ export default function Footer() {
         <p className="text-gray-400">&copy; {new Date().getFullYear()} Ibmahendra Ferdiansah. All rights reserved.</p> 
         <div className="flex justify-center space-x-4 mt-4">
           <a href="https://github.com/Ibmahen" target="_blank" rel="noopener noreferrer" 
-             className="w-10 h-10 rounded-full border border-gray-500 flex items-center justify-center text-white text-lg hover:border-[#FFCC00] transition duration-300">
+             className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300">
             <img src={githubIcon} alt="GitHub" className="w-6 h-6 object-contain" />
           </a>
           <a href="https://www.linkedin.com/in/ibmahendraferdiansah" target="_blank" rel="noopener noreferrer" 
-             className="w-10 h-10 rounded-full border border-gray-500 flex items-center justify-center text-white text-lg hover:border-[#FFCC00] transition duration-300">
+             className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300">
             <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6 object-contain" />
           </a>
           <a href="mailto:ibmahendraf04@gmail.com" 
-             className="w-10 h-10 rounded-full border border-gray-500 flex items-center justify-center text-white text-lg hover:border-[#FFCC00] transition duration-300">
+             className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300">
             <img src={emailIcon} alt="Email" className="w-6 h-6 object-contain" />
           </a>
         </div>

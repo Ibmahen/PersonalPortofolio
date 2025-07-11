@@ -32,7 +32,7 @@ export default function Home() {
             href="https://github.com/Ibmahen"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={github}
@@ -44,7 +44,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/ibmahendraferdiansah"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={linkedin}
@@ -54,7 +54,7 @@ export default function Home() {
           </a>
           <a
             href="mailto:ibmahendraf04@gmail.com"
-            className="w-14 h-14 rounded-full border border-gray-500 flex items-center justify-center text-white text-xl hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={email}

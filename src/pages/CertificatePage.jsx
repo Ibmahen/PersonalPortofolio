@@ -25,7 +25,6 @@ export default function CertificatePage() {
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-10">
           Certificates
         </h2>
-        {/* REMOVED fixed height 'h-[500px]' to allow dynamic content height */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {certificates.map((cert, i) => (
             <CertificateCard key={i} {...cert} />

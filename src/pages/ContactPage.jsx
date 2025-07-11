@@ -18,13 +18,11 @@ export default function Contact() {
       className="max-h-screen flex flex-col items-center bg-[#0a101e] py-16 px-6"
     >
       <div className="container mx-auto px-4 max-w-3xl">
-        {/* Changed mb-55 to mb-16 for standard and clearer spacing */}
         <h2 className="text-5xl font-bold text-[#FFCC00] text-center mb-16">
           Contact
         </h2>
 
         <div className="space-y-8 mb-12 justify-center items-center">
-          {/* Email Section: Added responsive flex (flex-col on small, flex-row on sm+) and adjusted gap/margins */}
           <div className="flex flex-col sm:flex-row items-center justify-center mb-8 sm:mb-12 gap-4 sm:gap-6 text-center sm:text-left">
             <div className="w-20 h-20 rounded-full bg-gray-700 flex items-center justify-center flex-shrink-0">
               <img
@@ -39,7 +37,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Phone Section: Changed mb-60 and removed mr-13, added responsive flex, adjusted gap/margins */}
           <div className="flex flex-col sm:flex-row items-center justify-center mb-16 sm:mb-20 gap-4 sm:gap-6 text-center sm:text-left sm:mr-18">
             <div className="w-20 h-20 rounded-full bg-gray-700 flex items-center justify-center flex-shrink-0">
               <img
@@ -49,7 +46,7 @@ export default function Contact() {
               />
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-white mb-2">Phone</h3> {/* Corrected mb2 to mb-2 */}
+              <h3 className="text-2xl font-bold text-white mb-2">Phone</h3> 
               <h2 className="text-gray-300 text-lg">+62 882 3283 5269</h2>
             </div>
           </div>
@@ -59,13 +56,12 @@ export default function Contact() {
           Visit my social profile and get connected
         </h3>
 
-        {/* Social Media Buttons: Adjusted sizes for better responsiveness */}
         <div className="flex space-x-3 md:space-x-4 justify-center">
           <a
             href="https://github.com/Ibmahen"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-500 flex items-center justify-center hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={githubIcon}
@@ -77,7 +73,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/ibmahendraferdiansah"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-500 flex items-center justify-center hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={linkedinIcon}
@@ -87,7 +83,7 @@ export default function Contact() {
           </a>
           <a
             href="mailto:ibmahendraf04@gmail.com"
-            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-500 flex items-center justify-center hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={emailIcon}
@@ -99,7 +95,7 @@ export default function Contact() {
             href="https://www.instagram.com/ibma.hen"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-500 flex items-center justify-center hover:border-[#FFCC00] transition duration-300"
+            className="w-14 h-14 rounded-full bg-gray-500 flex items-center justify-center text-white text-xl hover:bg-[#FFCC00] transition duration-300"
           >
             <img
               src={instagramIcon}
